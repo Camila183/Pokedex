@@ -1,0 +1,106 @@
+body {
+    height: 100%;   
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1EA1E7;
+    
+  
+}
+.Title{
+    font-family: Silkscreen ;
+    font-size: 3.3em;
+    color: #593312;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pokemon-container{
+    background-color: #F20505;
+    border: 2px solid #BF0404;
+    border-radius: 30px;
+    width: 350px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pokemon-div{
+    background-color: white;
+    border: 12px solid #B1B0B1;
+    border-radius: 30px;
+    width: 280px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+img{
+    
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+h2{
+font-family: "Jersey 20";
+  font-size: 35px;
+  font-style: normal;
+  margin: 0px;
+  color: black;
+    
+
+}
+
+p{
+    margin: 0;
+    font-family: "Lekton", monospace;
+    font-size: 20px;
+    font-weight: bold
+}
+
+#input-container{
+  display: flex;  
+}
+
+#input-search{
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 280px;
+    height: 30px;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    background-color: #F2B705;
+    font-family: "Lekton", monospace;
+    font-size: 16px;
+    
+}
+
+#btn-buscar{
+    margin: 20px 5px 20px 5px ;
+    height: 40px;
+    background-color: #509AFA;
+    border: 3px solid #2079ec;
+    border-radius: 15px;
+    font-family: "Lekton", monospace;
+    font-size: 16px;
+    color: white;
+}
+#btn-limpiar{
+   margin: 20px 5px 20px 5px;
+    height: 40px;
+    background-color: #38F205;
+    border: 3px solid rgb(28, 187, 28);
+    border-radius: 15px;
+    font-family: "Lekton", monospace;
+    font-size: 16px;
+    color: white;
+}
